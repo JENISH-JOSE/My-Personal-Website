@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3;
+            color: #b18484;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #a5e8ec;
+        }
+        p {
+            font-size: 20px;
+        }
+        #intro {
+            margin-top: 20px;
+        }
+        #image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            background-color: #f8ccde;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Personal Website</h1>
+    <p id="intro">Hello! My name is [JENISH JOSE GIDEON]. Welcome to my website where I share a bit about myself.</p>
+
+    <img id="image" src="myimage.jpg.jpg" alt="Your Photo">
+    
+    <h2>My Hobbies and Interests</h2>
+    <ul>
+        <li>Reading books</li>
+        <li>Traveling</li>
+        <li>Coding</li>
+        <li>Photography</li>
+        <li>HACKING</li>
+    </ul>
+
+    <button onclick="changeMessage()">Click Me for a Fun Fact!</button>
+
+    <p id="message"></p>
+
+    <script>
+        function changeMessage() {
+            document.getElementById("message").textContent = "love the nature because nature always loves you";
+        }
+    </script>
+
+</body>
+</html>
